@@ -1,0 +1,158 @@
+@import
+url('https://fonts.googleapis.com/css?family=Dosis|Homemade+Apple|Libre+Baskerville');
+/*font-family: 'Dosis', sans-serif;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Homemade Apple', cursive;*/
+
+/*yellow #f9e04f*/
+/*light teal #a2cfd6 */
+/*dark teal #6097a0 */
+/*other dark teal #5eb9c1 */
+/*light pink*/
+/*rose pink */
+/*pink grey*/
+
+body{
+   /* background-image: url('https://images.unsplash.com/photo-1526376043067-5af36c35cd6c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=aed342eea1c8593563be90e10c423dfe&auto=format&fit=crop&w=1000&q=60');*/
+   /* background-size:     cover;     */ 
+    background-repeat:   no-repeat;
+    background-color: #f7fbfc !important;
+    background-position: fixed;
+    
+}
+
+a {
+    color: #6097a0 !important;
+}
+
+.navigation {
+    background-color: rgb(249, 224, 79, 0.7);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 40px;
+    width: 100%;
+    border-bottom: solid 3px #f9e04f;
+    font-family: 'Dosis', sans-serif;
+    font-size: 2em;
+    color: #fff;
+}
+
+.top {
+    height: 900px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#brick {
+   /* background-color: #f9e04f;*/
+    background: url('/static/imgs/rawpixel-760112-unsplash.jpg');
+    background-attachment: fixed;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.parallax {
+    height: 650px;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, .7);
+}
+
+.color {
+    height: 500px;
+}
+
+.desctitle {
+    position: relative;
+    letter-spacing: 20px;
+    
+}
+
+.desctitle h1 {
+    margin-top: 0 !important;
+    font-size: 125px !important;
+    padding: 0px 30px;
+}
+
+/* Stroke CSS */
+.t-stroke {
+  color: transparent;
+  -moz-text-stroke-width: 3px;
+  -webkit-text-stroke-width: 3px;
+  -moz-text-stroke-color: #212121;
+  -webkit-text-stroke-color: #212121;
+}
+.t-shadow {
+  text-shadow: 7px 7px #8dffcd;
+}
+
+/* Shadow Stroke CSS */
+.t-stroke--shadow {
+  color: #ff8b8b;
+  text-shadow: -3px 3px #212121, -3px -3px #212121, 3px -3px #212121,
+    3px 3px #212121, 6px 6px #8dffcd;
+}
+
+.t-shadow--halftone {
+  position: relative;
+}
+.t-shadow--halftone::after {
+  content: "HELLO";
+  font-size: 120px;
+  letter-spacing: 12px;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAHElEQVQYV2NUVFT8f//+fUYGBgYGMAEDcA5IBQCKJQVmn76DhAAAAABJRU5ErkJggg==)
+    repeat;
+  background-size: 5x;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -moz-text-stroke-width: 0;
+  -webkit-text-stroke-width: 0;
+  position: absolute;
+  left: 6px;
+  top: 6px;
+  z-index: -1;
+}
+
+
+#eeklogo {
+    position: absolute;
+    left: 20px;
+    top: 100px;
+    height: 410px;
+/*    z-index: -100;*/
+    opacity: 0.7;
+    filter: alpha(opacity=70); /* For IE8 and earlier */
+}
+
+#one {
+    background-color: #add7db;
+}
+
+#three {
+    background-color: #effbfc;
+}
+
+#five {
+    background-color: #ffc6cf;
+}
+
+
+
+
+.welcome {
+    width: 750px !important;
+    /* margin: 9% 1% !important; */
+    padding: 20px 10px 20px 10px;
+    float: right;
+    /* background: rgb( 0, 0, 0, 0.25); */
+    border-radius: 15px 50px 30px 5px;
+}
+
+
+
+
+
+
+
+/* Hand Drawn Borders */
+

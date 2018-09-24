@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+
+{% load wagtailcore_tags %}
+
+{% block body_class %}template-homepage{% endblock %}
+
+        {% block content %}
+        <img id="eeklogo" src="/static/imgs/eeklogo.png"></img>
+        <div id="brick" class="top">
+            <div class="container welcome">
+
+            <h1>{{ page.title }}</h1>
+            <p>{{ page.intro | richtext }}</p>
+
+        
+            <p>You can access the admin interface <a href="{% url 'wagtailadmin_home' %}">here</a> (make sure you have run "./manage.py createsuperuser" in the console first).</p>
+
+            <p>If you haven't already given the documentation a read, head over to <a href="http://docs.wagtail.io/">http://docs.wagtail.io</a> to start building on Wagtail</p>
+            </div>
+        </div>
+
+        <div id="one" class="container-float parallax">
+            <div class="desctitle">
+                <h1 class="t-stroke t-shadow">RECENT POSTS</h1>
+            </div>
+        <p>TEST</p>
+        </div>
+
+        <div id="two" class="brick container-float parallax">
+        <p>TEST2</p>
+        </div>
+        
+        <div id="three" class="container-float parallax">
+        <p>TEST3</p>
+        </div>
+
+        <div id="four" class="brick container-float parallax">
+        <p>TEST</p>
+        </div>
+
+        <div id="five" class="container-float parallax">
+        <p>TEST</p>
+        </div>
+
+        {% endblock %}
