@@ -8,7 +8,9 @@ env = os.environ.copy()
 SECRET_KEY = env['SECRET_KEY']
 
 MIDDLEWARE.append('whitenoise.middleware.WhiteNoiseMiddleware')
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
+# Add compression and caching support
+#STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # Parse database configuration from $DATABASE_URL
 DATABASES['default'] =  dj_database_url.config()
