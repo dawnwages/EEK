@@ -1,1 +1,1 @@
-import * from EEK.settings
+from EEK.settings import *
