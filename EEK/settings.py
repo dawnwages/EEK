@@ -1,1 +1,0 @@
-from EEK.settings import *
