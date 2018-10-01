@@ -3,7 +3,6 @@
 *.swp
 __pycache__
 myvenv
-/static
 /media
 .env
 .DS_Store
