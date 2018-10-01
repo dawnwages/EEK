@@ -13,6 +13,8 @@ View a live example here: [foo](https://foo.herokuapp.com/)
 - Django Oscar
 - Ansible
 - React / GatsbyJS
+- PostGreSQL
+- Heroku
 
 ## Starting the app locally
 

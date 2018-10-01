@@ -5,3 +5,8 @@ myvenv
 db.sqlite3
 /static
 .DS_Store
+*.swp
+/myvenv/
+/static/
+/media/
+.env
