@@ -1,1 +1,1 @@
-web: gunicorn EEK.wsgi:application --preload --log-file - --log-level debug
+web: gunicorn EEK.EEK.wsgi:application --preload --log-file - --log-level debug
