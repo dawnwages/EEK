@@ -2,12 +2,14 @@
 
 Wagtail Application  
 
-View a live example here: [foo](https://foo.herokuapp.com/)
+View a live example here: [https://eekzine.herokuapp.com/](https://eekzine.herokuapp.com/)
 
 ## Features (WIP)
 - 
 
 ## Technologies Used
+- Guiniorn
+- Whitenoise
 - Django
 - Wagtail (headless)
 - Django Oscar
