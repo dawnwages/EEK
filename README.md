@@ -9,7 +9,7 @@ View a live example here: [https://eekzine.herokuapp.com/](https://eekzine.herok
 
 ## Technologies Used
 - Guiniorn
-- Whitenoise
+- Whitenoise v4.0 [documentation](http://whitenoise.evans.io/en/stable/changelog.html#v4-0)
 - Django
 - Wagtail (headless)
 - Django Oscar
